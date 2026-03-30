@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Lydex Solutions</title>
+    <meta name="description" content="About Lydex Solutions Ltd: a small UK app development studio building mobile games and educational apps.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231E3A5F'/%3E%3Ctext x='8' y='24' font-family='sans-serif' font-size='22' font-weight='700' fill='%23C9A84C'%3EL%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="site-logo">Lydex Solutions</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mills-through-time.html">Mills Through Time</a></li>
+                    <li><a href="spellstar.html">SpellStar</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>About Lydex Solutions</h1>
+                <p class="subtitle">A small studio building apps we would want to use ourselves.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Who We Are</h2>
+                <p>Lydex Solutions Ltd is a small app development studio based in England. We build mobile games and educational apps &mdash; the kind of software we would want to use ourselves and feel good about putting in front of our own children.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>What We Do</h2>
+                <p>We are currently working on two apps: <a href="mills-through-time.html">Mills Through Time</a>, a strategy board game that brings Nine Men's Morris to life across historical eras, and <a href="spellstar.html">SpellStar</a>, a gamified spelling app for UK primary school children aligned with national curriculum word lists.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Our Approach</h2>
+                <ul>
+                    <li><strong>Privacy first.</strong> We don't collect personal data, don't use analytics or tracking, and don't serve ads. If data stays on the device, it can't be misused.</li>
+                    <li><strong>No ads, ever.</strong> Our apps are funded by fair one-time purchases or affordable subscriptions &mdash; not by selling attention.</li>
+                    <li><strong>Fair pricing.</strong> Free tiers that are genuinely useful, with paid upgrades that are worth the price.</li>
+                    <li><strong>Small team, high standards.</strong> We take the time to get things right, focusing on quality over quantity.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Company Details</h2>
+                <p>Lydex Solutions Ltd is registered in England and Wales.</p>
+                <p>Company Number: 17117278</p>
+                <p>Incorporated: 25 March 2026</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <ul class="footer-links">
+                <li><a href="mills-privacy.html">Mills Privacy Policy</a></li>
+                <li><a href="spellstar-privacy.html">SpellStar Privacy Policy</a></li>
+                <li><a href="mills-support.html">Mills Support</a></li>
+                <li><a href="spellstar-support.html">SpellStar Support</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 Lydex Solutions Ltd. Company Number 17117278.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function () {
+            this.classList.toggle('open');
+            this.setAttribute('aria-expanded', this.classList.contains('open'));
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

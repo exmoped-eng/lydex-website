@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mills Through Time — Lydex Solutions</title>
+    <meta name="description" content="Mills Through Time: Nine Men's Morris strategy game spanning 7 historical eras. Ad-free, no tracking, no internet required.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231E3A5F'/%3E%3Ctext x='8' y='24' font-family='sans-serif' font-size='22' font-weight='700' fill='%23C9A84C'%3EL%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="site-logo">Lydex Solutions</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mills-through-time.html" class="active">Mills Through Time</a></li>
+                    <li><a href="spellstar.html">SpellStar</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Mills Through Time</h1>
+                <p class="subtitle">Nine Men's Morris across the ages &mdash; a strategy board game spanning 7 historical eras.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>About the Game</h2>
+                <p>Mills Through Time brings the ancient strategy game of Nine Men's Morris to life through 7 beautifully crafted historical eras &mdash; from the Caveman age to UltraModern. Each era features unique themed boards, game pieces, and AI opponents with their own personality.</p>
+                <p>Play through Career mode to unlock new eras, or jump straight into Quick Play. Challenge yourself against the clock in Time Challenge mode, or pass the device and play against a friend in Local 2-Player.</p>
+
+                <div class="info-box mt-2">
+                    <p><strong>Status:</strong> Coming soon to the App Store.</p>
+                    <p><strong>Pricing:</strong> Free with optional premium unlock (&pound;3.99) for additional eras.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h3>4 Game Modes</h3>
+                        <p>Career, Quick Play, Time Challenge, and Local 2-Player.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>7 Historical Eras</h3>
+                        <p>Caveman, Ancient Egypt, Roman, Medieval, Victorian, Modern, and UltraModern &mdash; each with unique artwork.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>14 Themed Game Pieces</h3>
+                        <p>Two sets of pieces per era, designed to fit the time period.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Smart AI</h3>
+                        <p>4 difficulty levels with themed AI opponents that adapt to your skill.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>History of the Game</h3>
+                        <p>Learn about the real history of Nine Men's Morris, one of the world's oldest board games.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Completely Offline</h3>
+                        <p>No internet required. No ads. No tracking. Just the game.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Privacy</h2>
+                <p>Mills Through Time collects no personal data. There is no tracking, no analytics, no ads, no third-party SDKs, and no internet connection required. Your game, your device, your data.</p>
+                <p class="mt-1">
+                    <a href="mills-privacy.html" class="link-arrow">Read the full privacy policy</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Support</h2>
+                <p>Need help or have a question about the game? Visit our support page or email us directly.</p>
+                <p class="mt-1">
+                    <a href="mills-support.html" class="btn btn--outline">Support page</a>
+                    &nbsp;
+                    <a href="mailto:ed@lydexsolutions.co.uk" class="link-arrow">Email us</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <ul class="footer-links">
+                <li><a href="mills-privacy.html">Mills Privacy Policy</a></li>
+                <li><a href="spellstar-privacy.html">SpellStar Privacy Policy</a></li>
+                <li><a href="mills-support.html">Mills Support</a></li>
+                <li><a href="spellstar-support.html">SpellStar Support</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 Lydex Solutions Ltd. Company Number 17117278.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function () {
+            this.classList.toggle('open');
+            this.setAttribute('aria-expanded', this.classList.contains('open'));
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lydex Solutions — Mobile Games &amp; Educational Apps</title>
+    <meta name="description" content="Lydex Solutions builds mobile games and educational apps. Privacy-first, ad-free, fair pricing.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231E3A5F'/%3E%3Ctext x='8' y='24' font-family='sans-serif' font-size='22' font-weight='700' fill='%23C9A84C'%3EL%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="site-logo">Lydex Solutions</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="mills-through-time.html">Mills Through Time</a></li>
+                    <li><a href="spellstar.html">SpellStar</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Lydex Solutions</h1>
+                <p class="subtitle">We build mobile games and educational apps that respect your privacy and your wallet.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-2">Our Apps</h2>
+                <div class="app-cards">
+                    <div class="app-card">
+                        <h3>Mills Through Time</h3>
+                        <p class="app-tagline">Nine Men's Morris across the ages</p>
+                        <p>A strategy board game spanning 7 historical eras, from Caveman to UltraModern. Career mode, themed AI opponents, and beautiful artwork. Ad-free, no tracking, no internet required.</p>
+                        <p>
+                            <span class="badge badge--coming-soon">Coming Soon</span>
+                        </p>
+                        <p class="mt-1">
+                            <a href="mills-through-time.html" class="link-arrow">Learn more</a>
+                        </p>
+                    </div>
+                    <div class="app-card">
+                        <h3>SpellStar</h3>
+                        <p class="app-tagline">Gamified spelling for UK primary schools</p>
+                        <p>Spelling practice for children aged 4&ndash;11, aligned with the DfE statutory word lists. 13 game modes, weekly spelling imports, progress tracking. All data stays on-device.</p>
+                        <p>
+                            <span class="badge badge--in-dev">In Development</span>
+                        </p>
+                        <p class="mt-1">
+                            <a href="spellstar.html" class="link-arrow">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Lydex Solutions Ltd is a small app development studio based in England. We build apps we would want to use ourselves: thoughtfully designed, privacy-first, ad-free, and fairly priced.</p>
+                <p class="mt-1">
+                    <a href="about.html" class="link-arrow">More about us</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Questions, feedback, or support requests? Drop us an email at <a href="mailto:ed@lydexsolutions.co.uk">ed@lydexsolutions.co.uk</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <ul class="footer-links">
+                <li><a href="mills-privacy.html">Mills Privacy Policy</a></li>
+                <li><a href="spellstar-privacy.html">SpellStar Privacy Policy</a></li>
+                <li><a href="mills-support.html">Mills Support</a></li>
+                <li><a href="spellstar-support.html">SpellStar Support</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 Lydex Solutions Ltd. Company Number 17117278.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function () {
+            this.classList.toggle('open');
+            this.setAttribute('aria-expanded', this.classList.contains('open'));
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

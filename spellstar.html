@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpellStar — Lydex Solutions</title>
+    <meta name="description" content="SpellStar: Gamified spelling practice for UK primary school children aged 4-11, aligned with DfE statutory word lists.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231E3A5F'/%3E%3Ctext x='8' y='24' font-family='sans-serif' font-size='22' font-weight='700' fill='%23C9A84C'%3EL%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="site-logo">Lydex Solutions</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mills-through-time.html">Mills Through Time</a></li>
+                    <li><a href="spellstar.html" class="active">SpellStar</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>SpellStar</h1>
+                <p class="subtitle">Gamified spelling practice for UK primary school children aged 4&ndash;11.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>About the App</h2>
+                <p>SpellStar makes spelling practice fun and effective. Aligned with the Department for Education statutory word lists, it covers the full UK primary curriculum from Reception to Year 6. Children practise their weekly spelling words through engaging game modes that build confidence and retention.</p>
+                <p>Import spelling lists by taking a photo, typing them in, sharing a code, or scanning a QR. Teachers can manage classroom lists, and parents can track progress &mdash; all without any data leaving the device.</p>
+
+                <div class="info-box mt-2">
+                    <p><strong>Status:</strong> In development.</p>
+                    <p><strong>Pricing:</strong> Free tier with Spell Cast mode. Paid tiers from &pound;3.49/month for full access to all game modes and features.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h3>13 Game Modes</h3>
+                        <p>From Spell Cast to word scrambles, each mode reinforces spelling in a different way.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Weekly Spelling Import</h3>
+                        <p>Photo, type, share code, or QR &mdash; four ways to get spelling lists into the app.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Curriculum Aligned</h3>
+                        <p>Built around DfE statutory word lists for Reception through Year 6.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Teacher &amp; Classroom Mode</h3>
+                        <p>Manage lists for a whole class with simple share codes.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Parent Progress Reports</h3>
+                        <p>PIN-gated parent area with detailed progress tracking across all word lists.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Avatars &amp; Badges</h3>
+                        <p>Customisable avatars and a badge system to keep children motivated.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Privacy</h2>
+                <p>SpellStar stores all data locally on the device. No cloud, no external APIs, no tracking, no analytics. The app is designed to be compliant with COPPA and the UK Children's Code (Age Appropriate Design Code). Only a child's first name, school year, learning progress, and a hashed PIN are stored &mdash; and none of it ever leaves the device.</p>
+                <p class="mt-1">
+                    <a href="spellstar-privacy.html" class="link-arrow">Read the full privacy policy</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Support</h2>
+                <p>Need help or have a question about SpellStar? Visit our support page or email us directly.</p>
+                <p class="mt-1">
+                    <a href="spellstar-support.html" class="btn btn--outline">Support page</a>
+                    &nbsp;
+                    <a href="mailto:ed@lydexsolutions.co.uk" class="link-arrow">Email us</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <ul class="footer-links">
+                <li><a href="mills-privacy.html">Mills Privacy Policy</a></li>
+                <li><a href="spellstar-privacy.html">SpellStar Privacy Policy</a></li>
+                <li><a href="mills-support.html">Mills Support</a></li>
+                <li><a href="spellstar-support.html">SpellStar Support</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 Lydex Solutions Ltd. Company Number 17117278.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function () {
+            this.classList.toggle('open');
+            this.setAttribute('aria-expanded', this.classList.contains('open'));
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
