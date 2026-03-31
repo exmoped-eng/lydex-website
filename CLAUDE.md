@@ -128,3 +128,7 @@ images/
 - No "coming soon" countdown timers
 - No newsletter signup forms
 - No chatbots or live chat widgets
+
+## Deployment
+After committing and pushing to GitHub, deploy to live site with:
+ssh -i "C:\Users\Ed Talbot\.ssh\id_lydex" edsbeprg@184.94.213.157 -p 21098 "cd /home/edsbeprg/lydexsolutions.co.uk && git pull"
