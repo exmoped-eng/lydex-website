@@ -128,13 +128,18 @@ li + li { margin-top: 0.4rem; }
     align-items: center;
     text-decoration: none;
     flex-shrink: 0;
+    color: var(--white);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
 }
 
-.site-logo img {
-    height: 30px;
-    width: auto;
-    display: block;
-    filter: brightness(0) invert(1);
+.site-logo:hover {
+    color: var(--gold);
+}
+
+.site-logo .logo-accent {
+    color: var(--gold);
 }
 
 .nav-links {
@@ -281,22 +286,29 @@ li + li { margin-top: 0.4rem; }
     position: relative;
 }
 
-/* Homepage hero — with logo */
+/* Homepage hero — with logo on light background */
 .home-hero {
-    padding: 4.5rem 0 4rem;
+    background: var(--white);
+    padding: 3.5rem 0 3rem;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.home-hero::before {
+    display: none;
 }
 
 .home-hero .hero-logo {
     height: auto;
-    width: 320px;
-    max-width: 80%;
-    margin: 0 auto 1.5rem;
+    width: 340px;
+    max-width: 75%;
+    margin: 0 auto 1.75rem;
     display: block;
 }
 
 .home-hero .subtitle {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     max-width: 520px;
+    color: var(--muted);
 }
 
 .hero-divider {
