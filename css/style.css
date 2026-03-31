@@ -608,20 +608,30 @@ li + li { margin-top: 0.4rem; }
 
 .footer-links {
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.footer-links li + li::before {
+    content: '\00B7';
+    color: rgba(255, 255, 255, 0.25);
+    margin-right: 1rem;
 }
 
 .footer-links a {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-size: 0.82rem;
-    padding: 0.3rem 0.6rem;
-    border-radius: var(--radius-sm);
-    transition: color 0.2s, background 0.2s;
+    transition: color 0.2s;
 }
 
 .footer-links a:hover {
